@@ -1,0 +1,7 @@
+.carousel-item img {
+    margin-top: 4.6rem;
+    height: 500px;
+    /* Defina a altura desejada */
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir o espaço disponível */
+}
