@@ -1,7 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body {
+    font-family: "DM Serif Text, serif;";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'DM Serif Text', serif;
+}
+
+.carousel-color-text {
+    font-family: 'DM Serif Text', serif;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+        0 0 10px rgba(255, 255, 255, 0.4),
+        0 0 15px rgba(255, 255, 255, 0.3),
+        0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.customize-bg {
+    background-color: black;
+}
+
+.custom-class {
+    font-family: 'DM Serif Text', serif;
+}
+
 .carousel-item img {
     margin-top: 4.6rem;
     height: 500px;
-    /* Defina a altura desejada */
     object-fit: cover;
-    /* Ajusta a imagem para cobrir o espaço disponível */
+}
+
+/* @keyframes buttonColorChange {
+    0% {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    25% {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    50% {
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
+
+    75% {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    100% {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+} */
+
+.carousel-caption button {
+    /* animation: buttonColorChange 5s infinite; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-caption button:hover {
+    transform: scale(1.08);
 }

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.title-content {
+    font-family: 'DM Serif Text', serif;
+}
+
+.container {
+    margin-top: 10rem;
+}
+
+body {
+    background-color: #bbbbbb;
+}
