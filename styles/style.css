@@ -62,11 +62,11 @@ h6 {
     }
 } */
 
-.carousel-caption button {
+.btn {
     /* animation: buttonColorChange 5s infinite; */
     transition: transform 0.3s ease-in-out;
 }
 
-.carousel-caption button:hover {
+.btn:hover {
     transform: scale(1.08);
 }
