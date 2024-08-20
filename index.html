@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body style="font-family: 'Roboto', sans-serif; background-color: 	#bbbbbb;">
+<body style="font-family: 'Roboto', sans-serif; background-color: #bbbbbb;">
     <header data-bs-theme="dark">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
             <div class="container-fluid">
@@ -25,7 +25,7 @@
                     aria-controls="navbarCollapse" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id=" navbarCollapse">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
                             <a class="nav-link fs-5" href="#">Página Inicial</a>
@@ -47,24 +47,25 @@
     </header>
 
     <!-- Carrossel -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="margin-top: 0;">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="imgs/Jean-Piaget.jpg" class="d-block w-100" alt="...">
+                <img src="imgs/Jean-Piaget.jpg" class="d-block w-100 img-fluid" alt="Jean Piaget">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="carousel-color-text mt-3 fs-1 mb-4 display-4">Jean William Fritz Piaget</h5>
                     <a class="btn btn-outline-light w-25" href="pages/jean-page.html">Ler mais</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="imgs/lev-vygotsky.jpg" class="d-block w-100" alt="...">
+                <img src="imgs/lev-vygotsky.jpg" class="d-block w-100 img-fluid" alt="Lev Vygotsky">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="carousel-color-text mt-3 fs-1 mb-4 display-4">Lev Semionovitch Vigotski</h5>
                     <a class="btn btn-outline-light w-25" href="pages/lev-page.html">Ler mais</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="imgs/bf-skinner-56a792c95f9b58b7d0ebd009.jpg" class="d-block w-100" alt="...">
+                <img src="imgs/bf-skinner-56a792c95f9b58b7d0ebd009.jpg" class="d-block w-100 img-fluid"
+                    alt="B.F. Skinner">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="carousel-color-text mt-3 fs-1 mb-4 display-4">Burrhus Frederic Skinner</h5>
                     <a class="btn btn-outline-light w-25" href="pages/skinner-page.html">Ler mais</a>
@@ -83,47 +84,40 @@
         </button>
     </div>
 
-
     <div class="container marketing mt-5">
-
         <div class="row">
             <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imgs/jean-cards.jpg"
-                    role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                </img>
-                <h2 class="fw-normal mt-1">Jean Piaget</h2>
+                <img class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140"
+                    src="imgs/jean-cards.jpg" role="img" aria-label="Jean Piaget">
+                <h2 class="fw-normal mt-3">Jean Piaget</h2>
                 <p>Jean William Fritz Piaget foi um biólogo, psicólogo e epistemólogo suíço, considerado um dos mais
                     importantes pensadores do século XX.</p>
                 <p><a class="btn btn-secondary shadow-lg" href="pages/jean-page.html">Ler mais!</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    src="imgs/Lev_Vygotsky_cards.jpg" role="img" aria-label="Placeholder"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                </img>
-                <h2 class="fw-normal mt-1">Lev Vygotsky</h2>
-                <p>Pensador
-                    importante em sua área e época, foi pioneiro no conceito de que o desenvolvimento intelectual das
-                    crianças ocorre em função das interações sociais e condições de vida.</p>
-                <p><a class="btn btn-secondary shadow-lg text-light" href="pages/lev-page.html">Ler mais!</a></p>
+                <img class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140"
+                    src="imgs/Lev_Vygotsky_cards.jpg" role="img" aria-label="Lev Vygotsky">
+                <h2 class="fw-normal mt-3">Lev Vygotsky</h2>
+                <p>Pensador importante em sua área e época, foi pioneiro no conceito de que o desenvolvimento
+                    intelectual das crianças ocorre em função das interações sociais e condições de vida.</p>
+                <p><a class="btn btn-secondary shadow-lg" href="pages/lev-page.html">Ler mais!</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="imgs/images.jpg" role="img"
-                    aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                </img>
-                <h2 class="fw-normal mt-1">B.F. Skinner</h2>
+                <img class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140" src="imgs/images.jpg"
+                    role="img" aria-label="B.F. Skinner">
+                <h2 class="fw-normal mt-3">B.F. Skinner</h2>
                 <p>Burrhus Frederic Skinner, conhecido como B. F. Skinner, foi um psicólogo behaviorista, inventor e
                     filósofo norte-americano. Foi professor na Universidade Harvard de 1958 até sua aposentadoria, em
                     1974.</p>
                 <p><a class="btn btn-secondary shadow-lg" href="pages/skinner-page.html">Ler mais!</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+    </div><!-- /.container -->
 
-        <div class="mt-5"></div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
